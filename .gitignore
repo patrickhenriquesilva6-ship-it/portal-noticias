@@ -1,0 +1,41 @@
+# CodeIgniter
+application/logs/
+*.log
+
+# Environment
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (dados sensíveis)
+portal/assets/images/uploads/
+portal/assets/images/ckeditor/
+portal/uploads/
+
+# Cache
+application/cache/
+
+# Sessions
+application/session/
+
+# Thumbnails
+portal/assets/images/thumbs/
+
+# Backup
+*.bak
+*.old
+
+# composer
+vendor/
+
+# node
+node_modules/
+npm-debug.log
