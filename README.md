@@ -1,4 +1,4 @@
-# Portal de Notícias NewsPHP
+# Portal de Notícias Vale do Aço
 
 Sistema de portal de notícias completo construído com PHP e CodeIgniter 3.
 
@@ -33,25 +33,7 @@ Sistema de portal de notícias completo construído com PHP e CodeIgniter 3.
 - Servidor Apache com mod_rewrite
 - cPanel (opcional, para hospedagem)
 
-## Instalação
 
-1. Clone o repositório para o seu servidor
-
-2. Crie uma base de dados MySQL e importe o ficheiro `BASE-DE-DADOS.sql`
-
-3. Configure a ligação à base de dados em `portal/application/config/database.php`:
-```php
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'seu_utilizador';
-$db['default']['password'] = 'sua_senha';
-$db['default']['database'] = 'nome_da_base';
-```
-
-4. Aceda ao painel admin em `www.seusite.com/admin`
-
-**Credenciais padrão:**
-- Email: admin@admin.com
-- Senha: admin
 
 ## Estrutura do Projeto
 
@@ -69,8 +51,7 @@ newsphp-777/
 │   │   └── front/
 │   ├── system/        # Core do CodeIgniter
 │   └── index.php
-├── BASE-DE-DADOS.sql  # Estrutura da base de dados
-└── Instalacao.txt     # Guia de instalação
+
 ```
 
 ## Screenshots
@@ -84,10 +65,4 @@ Adicione screenshots do seu projeto na pasta `/screenshots` e referencie-os aqui
 - Passwords encriptadas com Bcrypt
 - Prepared statements para queries SQL
 
-## Autor
 
-Patrick Henrique
-
-## Licença
-
-Este projeto é para fins de aprendizagem e portefólio.
